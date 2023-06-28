@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: 	#008B8B;
+}
+
+.navbar {
+    background:#008B8B;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header {
+    		background-image:url('WhatsApp Image 2022-02-06 at 1.40.26 AM.jpeg');
+    		background-size: cover;
+    		background-position: center;
+    		position: relative;
+	}
+  .overlay {
+      position: absolute;
+      min-height: 60%;
+      min-width: 75%;
+      left: 0;
+      top: 0;
+      background: rgba(0, 0, 0, 0.1);
+  }
+  .description {
+    left: 50%;
+    position: absolute;
+    top: 80%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+.description h2 {
+    color: #ffefd5;
+}
+
+.description p {
+    color:black;
+    font-size: 1.9rem;
+    line-height: 0.8;
+}
+.description button {
+    border:1px solid black;
+    background:		#008B8B;
+    border-radius: 0;
+    color:#fff;
+}
+
+.description button:hover {
+    border:1px solid 	#daa520;
+    background:	#daa520;
+    color: #000;
+}
